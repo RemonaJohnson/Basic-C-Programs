@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main()
+{
+    int a=8, b=5, Add, Sub, Mul;
+    float Div;
+    Add=a+b;
+    Sub=a-b;
+    Mul=a*b;
+    Div=a/b;
+    printf("Addition= %d \n",Add);
+    printf("Subtraction= %d \n",Sub);
+    printf("Multiplication= %d \n",Mul);
+    printf("Division= %d \n",Div);
+    return 0;
+}
